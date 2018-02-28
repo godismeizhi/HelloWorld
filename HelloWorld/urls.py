@@ -20,5 +20,6 @@ from HelloWorld.apps.login import views
 
 urlpatterns = [
 
-    url('hello/', views.hello)
+    url('hello/', views.hello),
+    url('world/', views.world)
 ]
